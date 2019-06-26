@@ -1,4 +1,7 @@
 $(document).on('click', '#btn', function(){
-  alert('#btn');
-});
-
+    $("#target").animate({
+        "marginLeft": "500px"
+    }).animate({
+        "marginTop": "1000px"
+    });
+  });
