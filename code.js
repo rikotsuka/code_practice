@@ -3,5 +3,6 @@ $(document).on('click', '#btn', function(){
         "marginLeft": "500px"
     }).animate({
         "marginTop": "1000px"
+
     });
-  });
+ });
